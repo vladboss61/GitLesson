@@ -1,15 +1,39 @@
 # GitLesson
-The First Git Repository. 11111
+The First Git Repository.
+git commands:
 
-Commit From Visual Studio
+// before first git using.
 
-Ohh, one more changes.
+git config --global user.email "vlad19972017@gmail.com"
+git config --global user.name "vlad19972017@gmail.com"
 
+git config list
 
-Ohh, one more changes.
-Ohh, one more changes.
-Ohh, one more changes.
-Ohh, one more changes.
+git clone https://...
+
+git add *
+
+// OR
+
+git add name_of_file.txt
+
+git commit -m "Commit Message"
+
+git push origin main
+
+git branch
+
+git branch name_of_branch
+
+git checkout name_of_branch
+
+// OR
+
+git checkout -b name_of_branch
+
+git log
+
+git pull
 
 
 
